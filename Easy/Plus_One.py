@@ -44,7 +44,7 @@ def plusOne(digits: list[int]) -> list[int]:
     return digits
 
 
-digits = [4,3,2,1]
+digits = [4,3,2,9]
 print(plusOne(digits))
 
 digits = [9,9,9]

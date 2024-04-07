@@ -34,30 +34,7 @@ Constraints:
 1 <= k <= s.length <= 105
 1 <= a.length, b.length <= 10
 s, a, and b contain only lowercase English letters.
-
-Seen this question in a real interview before?
-1/4
-Yes
-No
-Accepted
-22.9K
-Submissions
-64K
-Acceptance Rate
-35.7%
-Topics
-Companies
-Hint 1
-Discussion (13)
-Type comment here... (Markdown supported)
-
-Choose a type
-Preview
-Comment
-💡 Discussion Rules
-1. Please don't post any solutions in this discussion.
-
-2. The problem discussion is for asking questions about the problem or for sharing tips - anything except for solution"""
+"""
 
 def beautifulIndices(s: str, a: str, b: str, k: int) -> list[int]:
     grp1 = []
